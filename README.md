@@ -1,10 +1,12 @@
+<!DOCTYPE html>
 <html>
+<head>
+<title>Page Title</title>
+</head>
 <body>
 
-<p id="demo"></p>
-<script>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
 
-document.getElementById("demo").innerHTML = "welcome to my website";
-</script>
 </body>
 </html>
