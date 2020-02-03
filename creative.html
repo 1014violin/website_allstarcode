@@ -1,1 +1,46 @@
 
+<!DOCTYPE html>
+<html>
+<!-- ABOUT-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<style>
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+</style>
+</head>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="sidebar_close()" class="w3-bar-item w3-large">Close &times;</button>
+    <a href="home.html" class="w3-bar-item w3-button">Home</a>
+  <a href="about.html" class="w3-bar-item w3-button">About</a>
+   <a href="creative.html" class="w3-bar-item w3-button">Creative Adventures</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="sidebar_open()">☰</button>
+  <div class="w3-container">
+    <h1>Alexzandra Morris</h1>
+  </div>
+</div>
+
+<body>
+
+<h2>Creative Adventures</h2>
+<p>
+
+
+</body>
+
+
+<script>
+function sidebar_open() {
+  document.getElementById("mySidebar").style.display = "block";
